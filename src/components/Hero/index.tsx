@@ -11,7 +11,7 @@ const Hero = () => (
         <Tag>PS5</Tag>
       </div>
       <Infos>
-        <h2>Assassin`s Creed: Unity</h2>
+        <h2>Assassin&apos;s Creed Unity</h2>
         <p>
           <span>De R$ 250,00</span>
           Por R$ 190,00

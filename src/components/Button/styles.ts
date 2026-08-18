@@ -3,7 +3,7 @@ import { cores } from '../../styles'
 import { Link } from 'react-router-dom'
 import { Props } from '.'
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled.button<Omit<Props, 'type'>>`
   border: 2px solid
     ${(props) => (props.variant === 'primary' ? cores.verde : cores.branca)};
   color: ${cores.branca};
